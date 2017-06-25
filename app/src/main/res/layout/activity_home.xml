@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007236"
+    tools:context="com.example.android.thebaldwincenter.home">
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="The Baldwin Center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/company"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="Address: 212 Baldwin Ave, Pontiac, MI 48342"/>
+
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/address"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="Hours: 8:30AM–4:30PM"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hours"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="Phone: (248) 332-6101"/>
+
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bc"
+        android:paddingBottom="70dp"
+        android:layout_below="@id/phone"/>
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="baldwincenter.org"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"/>
+
+</RelativeLayout>
